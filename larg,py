@@ -1,0 +1,23 @@
+def is_greater(a, b):
+    if a > b:
+        return True
+    if a <= b:
+        return False
+    
+res = int(input("give me a number"))
+res2 = int(input("give me second number"))
+
+print(is_greater(res, res2))
+
+
+# or i can write like this
+
+
+def is_greater(a, b):
+    return a > b 
+
+
+res = int(input("give me a number"))
+res2 = int(input("give me second number"))
+
+print(is_greater(res, res2))
